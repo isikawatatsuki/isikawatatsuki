@@ -82,13 +82,22 @@ php/  laravel/  typescript/  vue/  go/  mysql/  docker/  git/
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=isikawatatsuki&theme=dracula" alt="Languages by repository" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isikawatatsuki&theme=dracula" alt="Languages by commit" />
-</div>
-
-<div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=isikawatatsuki&theme=dracula" alt="GitHub statistics" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=isikawatatsuki&theme=dracula&utcOffset=9" alt="Productive time in JST" />
+</div>
+
+---
+
+## 🟠 `$ language-stats --graph`
+
+```console
+tatsuki@github:~$ language-stats --graph
+[ OK ] Analysing repositories and commits...
+```
+
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=isikawatatsuki&theme=dracula" alt="Languages by repository" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isikawatatsuki&theme=dracula" alt="Languages by commit" />
 </div>
 
 ---
@@ -108,12 +117,6 @@ github systemd[1000]: Watching for the next idea...
 ---
 
 <div align="center">
-
-```console
-tatsuki@github:~$ exit
-logout
-[ Process completed successfully ]
-```
 
 ![Terminal visits](https://komarev.com/ghpvc/?username=isikawatatsuki&style=flat-square&color=E95420&label=terminal+visits)
 
