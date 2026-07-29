@@ -1,0 +1,34 @@
+name: Generate Ubuntu terminal profile
+
+on:
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_terminal_profile.py"
+      - "assets/avatar-terminal.png"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate live terminal dashboard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_terminal_profile.py
+      - name: Commit generated dashboard
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add assets/ubuntu-terminal-profile.svg
+          if git diff --cached --quiet; then
+            echo "No dashboard changes"
+          else
+            git commit -m "chore: update terminal dashboard"
+            git push
+          fi
