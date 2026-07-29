@@ -30,7 +30,7 @@ Status   Always learning</code></pre>
 ## `$ ls ~/toolchain`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,ts,vue,go,mysql,docker,git,github,vscode&theme=dark" alt="PHP, Laravel, TypeScript, Vue, Go, MySQL, Docker, Git, GitHub and VS Code" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,vue,go,rust,mysql,docker,git,github,vscode&theme=dark" alt="PHP, Laravel, TypeScript, Vue, Go, Rust, MySQL, Docker, Git, GitHub and VS Code" />
 </div>
 
 ---
