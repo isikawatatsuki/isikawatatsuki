@@ -46,8 +46,7 @@ Status   Always learning</code></pre>
 ## `$ language-stats --graph`
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=isikawatatsuki&theme=dracula" alt="Languages by repository" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isikawatatsuki&theme=dracula" alt="Languages by commit" />
+  <img width="100%" src="./assets/language-stats.svg" alt="Languages used across public repositories" />
 </div>
 
 ---
@@ -55,12 +54,7 @@ Status   Always learning</code></pre>
 ## `$ github-stats --live`
 
 <div align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=isikawatatsuki&theme=dracula" alt="GitHub contribution summary" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=isikawatatsuki&theme=dracula" alt="GitHub statistics" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=isikawatatsuki&theme=dracula&utcOffset=9" alt="Productive time in JST" />
+  <img width="100%" src="./assets/github-stats.svg" alt="Live GitHub statistics" />
 </div>
 
 ---
